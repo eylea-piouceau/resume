@@ -72,7 +72,7 @@
 % \printname is used to output the user's name in a large size
 \newcommand{\printname}{
 	\begingroup
-		\hfil{\MakeUppercase{\huge\bfseries\name}}\hfil % Style and output the user's name
+		\hfil{\huge\bfseries\name}\hfil % Style and output the user's name
 		\bigskip\break % Vertical whitespace below name
 	\endgroup
 }
@@ -97,7 +97,7 @@
 % Defines the rSection environment for the major sections within the CV
 \newenvironment{rSection}[1]{ % The single parameter is for the section title
 	\medskip % Vertical whitespace
-	\MakeUppercase{\textbf{#1}} % Section title
+	\textbf{#1} % Section title
 	\medskip % Vertical whitespace
 	\hrule % Horizontal rule
 	\begin{list}{}{ % List to indent the entire content of the section
