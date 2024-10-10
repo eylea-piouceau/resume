@@ -10,11 +10,8 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
-
 \usepackage{array} % Required for bold tabular columns
-
 \usepackage{ifthen} % Required for ifthenelse statements
-
 \usepackage{graphicx} % Required for including images
 
 \pagestyle{empty} % Suppress headers and footers on all pages
@@ -30,7 +27,7 @@
 	bottom=0.3in, % Bottom margin
 	left=0.4in, % Left margin
 	right=0.4in, % Right margin
-	%showframe, % Uncomment to show how the type block is set on the page
+%showframe, % Uncomment to show how the type block is set on the page
 }
 
 %----------------------------------------------------------------------------------------
@@ -62,8 +59,8 @@
 % \printaddress is used to style an address line (provided in the single parameter to the command)
 \newcommand{\printaddress}[1]{
 	\begingroup
-		\def \\ {\addressSep\ } % Redefine newlines (\\) to the address separator symbol so multiple lines of each address are output as a single line
-		\centerline{#1} % Output the centered address line
+	\def \\ {\addressSep\ } % Redefine newlines (\\) to the address separator symbol so multiple lines of each address are output as a single line
+	\centerline{#1} % Output the centered address line
 	\endgroup
 	\par % End the paragraph to ensure correct spacing between lines
 	\smallskip % Vertical whitespace between address lines
@@ -72,8 +69,8 @@
 % \printname is used to output the user's name in a large size
 \newcommand{\printname}{
 	\begingroup
-		\hfil{\huge\bfseries\name}\hfil % Style and output the user's name
-		\bigskip\break % Vertical whitespace below name
+	\hfil{\huge\bfseries\name}\hfil % Style and output the user's name
+	\bigskip\break % Vertical whitespace below name
 	\endgroup
 }
 
@@ -103,8 +100,8 @@
 	\begin{list}{}{ % List to indent the entire content of the section
 		\setlength{\leftmargin}{1.5em} % Indent to the left of the list
 	}
-	\item[] % Empty list item to enable indentation
-}{
+		\item[] % Empty list item to enable indentation
+		}{
 	\end{list}
 }
 
@@ -121,7 +118,19 @@
 	\smallskip % Vertical whitespace
 	\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
 		\setlength{\itemsep}{-0.5em} \vspace{-0.5em} % Reduce vertical spacing between items in the list for a tighter look
-}{
+		}{
 	\end{list}
 	\vspace{0.5em} % Vertical whitespace after the end of the list
+}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+\newenvironment{rReferences}{ % Create a new environment for References
+	\medskip % Vertical whitespace
+	\textbf{References} % Section title
+	\medskip % Vertical whitespace
+	\begin{list}{}{} % Start an empty list
+	}{
+	\end{list}
 }
