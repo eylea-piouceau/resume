@@ -128,7 +128,7 @@
 %	REFERENCES SECTION
 %----------------------------------------------------------------------------------------
 \newenvironment{rReferences}{ % Create a new environment for References
-	\vspace{-0.25em}
+	\vspace{-1em}
 	\medskip % Vertical whitespace
 	\textbf{References} % Section title
 	\medskip % Vertical whitespace
