@@ -93,6 +93,7 @@
 
 % Defines the rSection environment for the major sections within the CV
 \newenvironment{rSection}[1]{ % The single parameter is for the section title
+	\vspace{-0.25em}
 	\medskip % Vertical whitespace
 	\textbf{#1} % Section title
 	\medskip % Vertical whitespace
@@ -127,6 +128,7 @@
 %	REFERENCES SECTION
 %----------------------------------------------------------------------------------------
 \newenvironment{rReferences}{ % Create a new environment for References
+	\vspace{-0.25em}
 	\medskip % Vertical whitespace
 	\textbf{References} % Section title
 	\medskip % Vertical whitespace
