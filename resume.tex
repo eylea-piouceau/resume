@@ -11,136 +11,140 @@
 \usepackage{enumitem} % Required for customizing lists
 
 \usepackage{setspace}
-\setstretch{0.99} % Réduit l'interligne à 95% de la normale
+\setstretch{0.95} % Réduit l'interligne à 95% de la normale
 
 %------------------------------------------------
 
 \name{Eyléa Piouceau}
 
-\address{+33 7 81 61 89 65} % Contact information
-
-\address{\href{mailto:eylea.piouceau@ens-paris-saclay.frr}{eylea.piouceau@ens-paris-saclay.fr}}
+\address{+33 7 81 61 89 65 \\ \texttt{eylea.piouceau@ens-paris-saclay.fr}} % Contact information
 
 %----------------------------------------------------------------------------------------
 
+\renewenvironment{rReferences}
+{\vspace{-0.25em}\medskip\textbf{Références}\medskip\hrule
+\begin{list}{}
+{\setlength{\leftmargin}{1.5em}
+\setlength{\labelwidth}{0pt}
+\setlength{\itemindent}{0pt}
+\setlength{\labelsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0.3em}
+\setlength{\itemsep}{0.3em}}}
+{\end{list}}
+
+
+\renewcommand{\printname}{}
+\renewcommand{\printaddress}[1]{}
+
 \begin{document}
 
-\vspace{-0.25em}
-
-\begin{center}
-	6 rue Jalna, 78370 Plaisir, France \\
-\end{center}
-
-\begin{center}
-	\textit{Status: Student at École Normale Supérieure Paris-Saclay with civil servant status} \\
-	\textbf{Objective: Application for an internship next summer in Biology}
-\end{center}
+	\noindent
+	\begin{minipage}[c]{0.22\textwidth}
+		\includegraphics[height=4.5cm]{img/pp.jpeg}
+	\end{minipage}%
+	\begin{minipage}[c]{0.56\textwidth}
+		\centering
+		{\huge\bfseries Eyléa Piouceau}\\[0.4em]
+		+33\,7\,81\,61\,89\,65 $\diamond$ \texttt{eylea.piouceau@ens-paris-saclay.fr}\\[0.2em]
+		6 rue Jalna, 78370 Plaisir, France\\[0.4em]
+		\textbf{Objet : Candidature pour un stage de Master 2 (2026-2027)}
+	\end{minipage}%
+	\begin{minipage}[c]{0.22\textwidth}
+	\end{minipage}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
+	\begin{rSection}{Formation}
 
-	\textbf{École Normale Supérieure Paris-Saclay} \hfill 2025 - Present \\
-	Master 2 Formation à l'enseignement supérieur en Sciences du Vivant (Agrégation BBB)  \hfill \textit{Gif-sur-Yvette, France} \\
-	\textit{Master’s Degree in Higher Education Training in Life Sciences (French National Teaching Certification) at the Université Paris-Saclay} \\
-	\textit{Third year of the specific ENS Paris-Saclay diploma, a 4-year reinforced training}
+	\textbf{École Normale Supérieure Paris-Saclay} \hfill 2025 - Présent \\
+	Master 2 Formation à l'Enseignement Supérieur en Sciences du Vivant (Agrégation Biochimie-Biologie-Biotechnologie)  \hfill \\
+	\textit{Troisième année du diplôme de l'ENS Paris-Saclay}
 
 	\vspace{0.5mm}
 
 	\textbf{École Normale Supérieure Paris-Saclay} \hfill 2024 - 2025 \\
-	Admitted to the ENS Paris-Saclay after a highly competitive entrance exam, status of civil servant obtained \\
-	Master 1 Biologie-Santé, plateforme Microbiologie  \hfill \textit{Gif-sur-Yvette, France} \\
-	\textit{First year of an MSc in Life Sciences and Health at the Université Paris-Saclay, with a major in Microbiology} \\
-	\textit{Second year of the specific ENS Paris-Saclay diploma, a 4-year reinforced training} \\
-	Valedictorian with an overall average of 17,7/20
-
+	Admise à l'ENS Paris-Saclay via le second concours en tant qu'élève fonctionnaire stagiaire \\
+	Master 1 Biologie-Santé voie Boris Ephrussi \hfill \textit{Gif-sur-Yvette, France} \\
+	\textit{Deuxième année du diplôme de l'ENS Paris-Saclay} \\
+	Major de promotion avec une moyenne générale de 17,7/20
 	\vspace{0.5mm}
 
 	\textbf{Université de Versailles Saint-Quentin-en-Yvelines} \hfill 2021 - 2024 \\
 	Licence double-diplôme Chimie, Sciences de la vie (240 ECTS) \hfill \textit{Versailles, France} \\
-	\textit{Dual Bachelor's degree in Chemistry and Life Sciences} \\
-	Valedictorian over the 3 years with an overall average of 18,5/20
+	Major de promotion avec une moyenne générale de 18,5/20
 
 	\vspace{0.5mm}
 
 	\textbf{Lycée Jean Vilar} \hfill 2018 - 2021 \\
 	Baccalauréat mention très bien avec les félicitations du jury \hfill \textit{Plaisir, France} \\
-	\textit{Equivalent to A-levels in science subjects obtained with highest honours} \\
-	Overall average : 18,4/20
-\end{rSection}
+	Moyenne générale : 18,4/20
+	\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Professional Experience}
+	\begin{rSection}{Expériences professionnelles}
 
-	\begin{rSubsection}{Research intern at the Hubrecht Institute}{June 2025 - July 2025}{6-week internship in the 'Gene Expression Dynamics' team directed by Marvin Tanenbaum.}{Utrecht, Pays-Bas}
-		\item As a Research Intern, I studied the impact of codon optimality on translation elongation dynamics using live-cell imaging of circular RNAs.
-		\item I performed spinning-disk confocal fluorescence imaging on human cells and analysed the data using the TransTrack software.
+	\begin{rSubsection}{Stagiaire à Hubrecht Institute}{June 2025 - July 2025}{Stage de 6 semaines dans l'équipe 'Gene Expression Dynamics' dirigée par Marvin Tanenbaum.}{Utrecht, Pays-Bas}
+		\item En tant que chercheur stagiaire, j'ai étudié l'impact de l'optimalité des codons sur la dynamique de l’élongation de la traduction par imagerie en cellule vivante d’ARN circulaires. J’ai réalisé des acquisitions d’images fluorescentes de cellules humaines par microscopie confocale à disque rotatif et analysé les données avec le logiciel TransTrack.
 	\end{rSubsection}
 
-	\begin{rSubsection}{Research intern at IBPC (Institut de Biologie Physico-Chimique)}{June 2023 - July 2023}{2-month internship in the 'Microbial Genetic Expression' Unit (UMR8261 CNRS), directed by Ciarán Condon.}{Paris, France}
-		\item As a Research Intern within the ``RNA control of gene expression'' team led by Maude Guillier, I studied the regulation of gene expression in \textit{Escherichia coli.}
-		\item I carried out several laboratory techniques such as northern blot, bacterial transformation and $\beta$-galactosidase activity assays. I had the opportunity to develop my analytical thinking skills and gain a deeper understanding of the scientific approach.
+	\begin{rSubsection}{Stagiaire à l'IBPC (Institut de Biologie Physico-Chimique)}{Juin 2023 - Juillet 2023}{Stage de 2 mois dans l'unité 'Expression Génétique Microbienne (UMR8261 CNRS), dirigée par Ciarán Condon.}{Paris, France}
+		\item En tant que chercheur stagiaire au sein de l'équipe ``Contrôle de l'expression génétique par les ARNs'' dirigée par Maude Guillier, j'ai étudié la régulation de l'expression des gènes chez \textit{Escherichia coli.} J'ai utilisé différentes techniques expérimentales telles que la transformation bactérienne, la PCR, le northern blot et des mesures de l’activité $\beta$-galactosidase.
+
 	\end{rSubsection}
 
 %------------------------------------------------
 
-	\begin{rSubsection}{Part-time student worker - Course reviewer, Université de Versailles Saint-Quentin-en-Yvelines}{May 2023 - June 2023}{Course reviewer for the HILISIT project (Hybridation en LIcence ScIenTifique)}{Versailles, France}
-		\item I was selected to review and edit course materials on molecular biology created by university lecturers and researchers, designed as online resources for undergraduate students.
-		\item This project allowed me to reflect on course structure and adapt concepts according to the students' proficiency levels.
+	\begin{rSubsection}{Étudiant vacataire - Relecture de cours, Université de Versailles Saint-Quentin-en-Yvelines}{Mai 2023 - Juin 2023}{Correction de cours dans le cadre du projet HILISIT (Hybridation en LIcence ScIenTifique)}{Versailles, France}
+		\item J'ai été sélectionnée pour relire et corriger des cours rédigés par des enseignants-chercheurs sur les principaux chapitres de biologie moléculaire de licence, ayant pour vocation de devenir des ressources en ligne.
 	\end{rSubsection}
 
-\end{rSection}
+	\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL AND LANGUAGES SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical and Language Skills}
+	\begin{rSection}{Compétences linguistiques et techniques}
 
-	\textbf{Foreign Languages}
 	\begin{itemize}[noitemsep, topsep=0pt, left=0pt]
-		\item I have a good command of English, supported by my score of 7.5 (equivalent to a C1) on the IELTS examination.
-		\item I have obtained the SWAP (Scientific Writing Assessment Program) certification in Scientific English.
-		\item I am a native speaker of French.
-	\end{itemize}
-	\textbf{Programming Languages}
-	\begin{itemize}[noitemsep, topsep=0pt, left=0pt]
-		\item I am a proficient user of all Microsoft Office packages and I am experienced in using PubMed to conduct bibliographic research.
-		\item I have a good working knowledge of Python and I am familiar with R.
+		\item Anglais : niveau C1 (score de 7.5/9 à l'IELTS). Certifiée en anglais sientifique (SWAP - Scientific Writing Assessment Program).
+		\item Français : langue maternelle
+		\item Compétente dans la recherche bibliographique via Pubmed.
+		\item Bonne maîtrise de Python et connaissances de base en R
 	\end{itemize}
 
-\end{rSection}
+	\end{rSection}
 
 
 %----------------------------------------------------------------------------------------
 %	PERSONAL INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Personal Interests}
+	\begin{rSection}{Intérêts personnels et bénévolat}
 	\vspace{-1em}
 	\begin{rSubsection}{}{}{}{}
-		\item I have been active in sports since childhood, starting with 10 years of classical ballet, then 5 years of club volleyball, along with Pilates and Yoga. Team sports enhanced my teamwork and communication skills, while sports overall taught me perseverance and discipline.
-		\item I am a volunteer at a neighborhood council, where during the summer of 2024, I assisted primary school students with their homework twice a week for two months. This experience taught me how to adapt to different profiles and develop a pedagogical approach.
+		\item Sport (vélo, course à pied, pilates et yoga), Musique (piano, ukulélé et chant), Lecture
+		\item Je suis bénévole au Conseil de quartier du Valibout au sein duquel j'ai encadré du soutien scolaire pour des élèves de l'école élémentaire.
 	\end{rSubsection}
 
-\end{rSection}
+	\end{rSection}
 
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rReferences}
-	\vspace{-0.5em}
-    \item \textit{Academic Reference:} Uriel Hazan, research professor at ENS Paris-Saclay $\diamond$ \href{mailto:uriel.hazan@ens-paris-saclay.fr}{uriel.hazan@ens-paris-saclay.fr}
-	\item \textit{Academic Reference:} Clémence Richetta, associate professor at ENS Paris-Saclay $\diamond$ \href{mailto:clemence.richetta@ens-paris-saclay.fr}{clemence.richetta@ens-paris-saclay.fr}
-	\item \textit{Scientific Reference:} Maude Guillier, research director at IBPC $\diamond$ \href{mailto:maude.guillier@ibpc.fr}{maude.guillier@ibpc.fr}
-\end{rReferences}
+	\begin{rReferences}
+		%\vspace{-0.5em}
+		\item \textit{Référent académique :} Uriel Hazan, professeur à l'ENS Paris-Saclay $\diamond$ \href{mailto:uriel.hazan@ens-paris-saclay.fr}{uriel.hazan@ens-paris-saclay.fr}
+		\item \textit{Référente scientifique :} Maude Guillier, directrice de recherche à l'IBPC $\diamond$ \href{mailto:maude.guillier@ibpc.fr}{maude.guillier@ibpc.fr}
+	\end{rReferences}
 
 \end{document}
 
