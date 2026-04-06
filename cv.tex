@@ -11,7 +11,7 @@
 \usepackage{enumitem} % Required for customizing lists
 
 \usepackage{setspace}
-\setstretch{0.99} % Réduit l'interligne à 95% de la normale
+\setstretch{0.95} % Réduit l'interligne à 95% de la normale
 
 %------------------------------------------------
 
@@ -22,29 +22,36 @@
 %----------------------------------------------------------------------------------------
 
 \renewenvironment{rReferences}
-{\subsubsection*{Références}
-	\begin{list}{} % environnement list sans puces
-	{\setlength{\leftmargin}{2em}   % décalage à gauche
-	\setlength{\labelwidth}{0pt}
-	\setlength{\itemindent}{0pt}
-	\setlength{\labelsep}{0pt}
-	\setlength{\parsep}{0pt}
-	\setlength{\topsep}{2em}
-	\setlength{\itemsep}{0.5em}}}   % espace entre les items
-	{\end{list}}
+{\vspace{-0.25em}\medskip\textbf{Références}\medskip\hrule
+\begin{list}{}
+{\setlength{\leftmargin}{1.5em}
+\setlength{\labelwidth}{0pt}
+\setlength{\itemindent}{0pt}
+\setlength{\labelsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0.3em}
+\setlength{\itemsep}{0.3em}}}
+{\end{list}}
 
+
+\renewcommand{\printname}{}
+\renewcommand{\printaddress}[1]{}
 
 \begin{document}
 
-\vspace{-0.25em}
-
-\begin{center}
-	6 rue Jalna, 78370 Plaisir, France \\
-\end{center}
-
-\begin{center}
-	\textbf{Objet : Candidature pour un stage de Master 2 (2026-2027)} \\
-\end{center}
+	\noindent
+	\begin{minipage}[c]{0.22\textwidth}
+		\includegraphics[height=3cm]{img/pp.jpeg}
+	\end{minipage}%
+	\begin{minipage}[c]{0.56\textwidth}
+		\centering
+		{\huge\bfseries Eyléa Piouceau}\\[0.4em]
+		+33\,7\,81\,61\,89\,65 $\diamond$ \texttt{eylea.piouceau@ens-paris-saclay.fr}\\[0.2em]
+		6 rue Jalna, 78370 Plaisir, France\\[0.4em]
+		\textbf{Objet : Candidature pour un stage de Master 2 (2026-2027)}
+	\end{minipage}%
+	\begin{minipage}[c]{0.22\textwidth}
+	\end{minipage}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
