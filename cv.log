@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.5)  12 APR 2026 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.5)  18 APR 2026 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -281,7 +281,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 40.
+ on input line 41.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT
 -TLF.fd
@@ -289,7 +289,7 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 40.
+(Font)              scaled to size 10.0pt on input line 41.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
 ef
@@ -299,24 +299,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -350,14 +350,14 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.90755pt, 556.4799pt, 28.90755pt)
+* h-part:(L,W,R)=(18.06749pt, 578.16002pt, 18.06749pt)
 * v-part:(T,H,B)=(21.68121pt, 751.60756pt, 21.68121pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=556.4799pt
+* \textwidth=578.16002pt
 * \textheight=751.60756pt
-* \oddsidemargin=-43.36244pt
-* \evensidemargin=-43.36244pt
+* \oddsidemargin=-54.2025pt
+* \evensidemargin=-54.2025pt
 * \topmargin=-87.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -378,7 +378,7 @@ e
 
 \c@mv@tabular=\count293
 \c@mv@boldtabular=\count294
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
 (./cv.out) (./cv.out)
 \@outlinefile=\write3
 \openout3 = `cv.out'.
@@ -386,18 +386,18 @@ Package hyperref Info: Link coloring OFF on input line 40.
 <img/pp.jpeg, id=4, 1807.75375pt x 2410.00375pt>
 File: img/pp.jpeg Graphic file (type jpg)
 <use img/pp.jpeg>
-Package pdftex.def Info: img/pp.jpeg  used on input line 44.
+Package pdftex.def Info: img/pp.jpeg  used on input line 45.
 (pdftex.def)             Requested size: 64.02261pt x 85.35826pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 45.
+(Font)              <5> on input line 46.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 48.
+(Font)              scaled to size 20.74pt on input line 49.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 48.
+(Font)              scaled to size 20.74pt on input line 49.
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineMonoT
--TLF on input line 49.
+-TLF on input line 50.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/libertine/OT1LinuxLibertineM
 onoT-TLF.fd
@@ -407,15 +407,15 @@ OT1/LinuxLibertineMonoT-TLF.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineMonoT-TLF/m/n' in size <10> n
 ot available
 (Font)              Font shape `OT1/LinuxLibertineMonoT-TLF/regular/n' tried in
-stead on input line 49.
+stead on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 49.
+(Font)              scaled to size 10.0pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 10.0pt on input line 52.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 65.
+(Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
- on input line 116.
+ on input line 118.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT
 -TLF.fd
@@ -423,7 +423,7 @@ File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 116.
+(Font)              scaled to size 10.0pt on input line 118.
 
 
 [1
@@ -445,7 +445,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  10960 strings out of 475030
  180091 string characters out of 5762435
- 584440 words of memory out of 5000000
+ 585438 words of memory out of 5000000
  33508 multiletter control sequences out of 15000+600000
  567239 words of font info for 48 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -457,7 +457,7 @@ c/libertine/LinLibertineTB.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/t
 ype1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2024basic/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024basic/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on cv.pdf (1 page, 1519957 bytes).
+Output written on cv.pdf (1 page, 1519983 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
